@@ -1,3 +1,8 @@
-# CleaningFunctions
+# Cleaning Functions
 
-Cleaning Functions that scrape data pulled from poorly formatted HTML tables. There are four in total that clean a personal information table, booking information table, case information table, and formats the case information table. 
+Cleaning Functions that scrape data pulled from poorly formatted HTML tables.
+
+* PersonalInfoFun - Cleans deomgraphic table
+* BookingInfoFun - Cleans booking table
+* CaseInfoFun - Scrapes and cleans case information (CaseInfo needed a unique xpath)
+* SpreadDataFun - Spreads data obtained from caseinfo to make it usable for input into a SQL database
